@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use App\Models\Manufacturer;
 use App\Models\User;
 use App\Models\Bid;
+use App\Models\CarImage;
 
 class Car extends Model
 {
@@ -17,43 +18,40 @@ class Car extends Model
         'make',
         'model',
         'year',
+        'mileage',
         'price',
         'description',
+        'listing_type',
+        'auction_end',
+        'body_type',
         'condition',
         'transmission',
         'fuel_type',
-        'mileage',
-        'body_type',
         'color',
+        'engine_size',
+        'features',
         'is_featured',
         'status',
-        'features',
-        'images',
-        'user_id',
+        'user_id'
     ];
 
     protected $casts = [
-        'is_featured' => 'boolean',
-        'features' => 'array',
-        'images' => 'array',
         'year' => 'integer',
-        'price' => 'decimal:2',
         'mileage' => 'integer',
+        'price' => 'decimal:2',
+        'is_featured' => 'boolean',
+        'auction_end' => 'datetime',
+        'engine_size' => 'decimal:1'
     ];
-
-    public function manufacturer()
-    {
-        return $this->belongsTo(Manufacturer::class);
-    }
 
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 
-    public function bids()
+    public function images()
     {
-        return $this->hasMany(Bid::class);
+        return $this->hasMany(CarImage::class);
     }
 
     public function getHighestBidAttribute()

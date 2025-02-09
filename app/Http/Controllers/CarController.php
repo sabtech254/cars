@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Car;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class CarController extends Controller
 {
@@ -112,7 +114,7 @@ class CarController extends Controller
     {
         // If request is from admin panel
         if ($request->is('admin*')) {
-            $request->validate([
+            $validatedData = $request->validate([
                 'title' => 'required|string|max:255',
                 'make' => 'required|string|max:50',
                 'model' => 'required|string|max:50',
@@ -123,27 +125,70 @@ class CarController extends Controller
                 'listing_type' => 'required|in:sale,auction',
                 'auction_end' => 'required_if:listing_type,auction|nullable|date|after:now',
                 'body_type' => 'required|in:sedan,suv,hatchback,truck,van',
+                'condition' => 'required|in:new,used',
+                'transmission' => 'required|in:manual,automatic',
+                'fuel_type' => 'required|in:petrol,diesel,hybrid,electric',
+                'color' => 'required|string|max:50',
+                'engine_size' => 'nullable|numeric|min:0',
+                'features' => 'nullable|string',
+                'is_featured' => 'boolean',
                 'images.*' => 'required|image|mimes:jpeg,png,jpg|max:2048',
             ]);
 
-            $data = $request->except(['images', 'is_featured']);
-            $data['is_featured'] = $request->has('is_featured');
-            $data['status'] = 'available';
+            try {
+                DB::beginTransaction();
 
-            // Handle images
-            if ($request->hasFile('images')) {
-                $imagePaths = [];
-                foreach ($request->file('images') as $image) {
-                    $path = $image->store('cars', 'public');
-                    $imagePaths[] = $path;
+                // Create the car listing
+                $car = new Car();
+                $car->title = $validatedData['title'];
+                $car->make = $validatedData['make'];
+                $car->model = $validatedData['model'];
+                $car->year = $validatedData['year'];
+                $car->mileage = $validatedData['mileage'];
+                $car->price = $validatedData['price'];
+                $car->description = $validatedData['description'];
+                $car->listing_type = $validatedData['listing_type'];
+                $car->auction_end = $validatedData['listing_type'] === 'auction' ? $validatedData['auction_end'] : null;
+                $car->body_type = $validatedData['body_type'];
+                $car->condition = $validatedData['condition'];
+                $car->transmission = $validatedData['transmission'];
+                $car->fuel_type = $validatedData['fuel_type'];
+                $car->color = $validatedData['color'];
+                $car->engine_size = $validatedData['engine_size'] ?? null;
+                $car->features = $validatedData['features'] ?? null;
+                $car->is_featured = $request->has('is_featured');
+                $car->user_id = auth()->id(); // Set the user who created the listing
+                $car->status = 'active';
+                $car->save();
+
+                // Handle image uploads
+                if ($request->hasFile('images')) {
+                    foreach ($request->file('images') as $image) {
+                        $path = $image->store('car-images', 'public');
+                        
+                        // Create image record
+                        $car->images()->create([
+                            'path' => $path,
+                            'is_primary' => false // You might want to add logic to set primary image
+                        ]);
+                    }
                 }
-                $data['images'] = json_encode($imagePaths);
+
+                DB::commit();
+
+                return redirect()
+                    ->route('admin.cars.index')
+                    ->with('success', 'Car listing created successfully!');
+
+            } catch (\Exception $e) {
+                DB::rollBack();
+                Log::error('Car creation failed: ' . $e->getMessage());
+                
+                return redirect()
+                    ->back()
+                    ->withInput()
+                    ->with('error', 'Failed to create car listing. Please try again.');
             }
-
-            Car::create($data);
-
-            return redirect()->route('admin.cars.' . $request->listing_type)
-                ->with('success', 'Car created successfully.');
         }
 
         // Regular user car creation
