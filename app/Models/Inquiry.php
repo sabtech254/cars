@@ -7,20 +7,22 @@ use Illuminate\Database\Eloquent\Model;
 use App\Models\User;
 use App\Models\Car;
 
-class Bid extends Model
+class Inquiry extends Model
 {
     use HasFactory;
 
     protected $fillable = [
         'user_id',
         'car_id',
-        'amount',
+        'subject',
+        'message',
         'status',
-        'notes'
+        'email',
+        'phone'
     ];
 
     /**
-     * Get the user that made the bid.
+     * Get the user that made the inquiry.
      */
     public function user()
     {
@@ -28,7 +30,7 @@ class Bid extends Model
     }
 
     /**
-     * Get the car that was bid on.
+     * Get the car that was inquired about.
      */
     public function car()
     {

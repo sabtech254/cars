@@ -8,10 +8,17 @@ use Symfony\Component\HttpFoundation\Response;
 
 class AdminMiddleware
 {
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
     public function handle(Request $request, Closure $next): Response
     {
         if (!auth()->check() || !auth()->user()->is_admin) {
-            return redirect()->route('home')->with('error', 'Unauthorized access.');
+            abort(403, 'Unauthorized action.');
         }
 
         return $next($request);

@@ -4,23 +4,22 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\User;
-use App\Models\Car;
 
-class Bid extends Model
+class Activity extends Model
 {
     use HasFactory;
 
     protected $fillable = [
         'user_id',
-        'car_id',
-        'amount',
-        'status',
-        'notes'
+        'title',
+        'description',
+        'type',
+        'subject_type',
+        'subject_id'
     ];
 
     /**
-     * Get the user that made the bid.
+     * Get the user that performed the activity.
      */
     public function user()
     {
@@ -28,10 +27,10 @@ class Bid extends Model
     }
 
     /**
-     * Get the car that was bid on.
+     * Get the subject of the activity.
      */
-    public function car()
+    public function subject()
     {
-        return $this->belongsTo(Car::class);
+        return $this->morphTo();
     }
 }

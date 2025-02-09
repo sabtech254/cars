@@ -1,206 +1,160 @@
-<x-app-layout>
-    <div class="container-fluid px-4 py-5">
-        <!-- Stats Grid -->
-        <div class="row g-4 mb-5">
-            <!-- Total Cars -->
-            <div class="col-xl-3 col-sm-6">
-                <div class="card bg-primary text-white">
+<x-admin-layout>
+    <div class="container-fluid">
+        <!-- Page Title -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="h3">Dashboard Overview</h1>
+            <div>
+                <a href="{{ route('cars.create') }}" class="btn btn-primary">
+                    <i class="material-icons align-middle">add</i> Add New Car
+                </a>
+            </div>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="row">
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-primary shadow h-100 py-2">
                     <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <p class="mb-2">Total Cars</p>
-                                <h3 class="mb-0">{{ $totalCars }}</h3>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                    Total Cars</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $totalCars }}</div>
                             </div>
-                            <div class="rounded-circle bg-primary-light p-3">
-                                <i class="material-icons">directions_car</i>
+                            <div class="col-auto">
+                                <i class="material-icons text-gray-300" style="font-size: 2rem;">directions_car</i>
                             </div>
-                        </div>
-                        <div class="mt-3 small">
-                            <span class="text-white-50">Available: {{ $availableCars }}</span>
-                            <span class="text-white-50 ms-3">Sold: {{ $soldCars }}</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Featured Cars -->
-            <div class="col-xl-3 col-sm-6">
-                <div class="card bg-success text-white">
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
                     <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <p class="mb-2">Featured Cars</p>
-                                <h3 class="mb-0">{{ $featuredCars }}</h3>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                    Active Bids</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $activeBids }}</div>
                             </div>
-                            <div class="rounded-circle bg-success-light p-3">
-                                <i class="material-icons">star</i>
+                            <div class="col-auto">
+                                <i class="material-icons text-gray-300" style="font-size: 2rem;">gavel</i>
                             </div>
-                        </div>
-                        <div class="mt-3 small">
-                            <span class="text-white-50">Currently featured</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Total Users -->
-            <div class="col-xl-3 col-sm-6">
-                <div class="card bg-info text-white">
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-info shadow h-100 py-2">
                     <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <p class="mb-2">Total Users</p>
-                                <h3 class="mb-0">{{ $totalUsers }}</h3>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                    New Inquiries</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $newInquiries }}</div>
                             </div>
-                            <div class="rounded-circle bg-info-light p-3">
-                                <i class="material-icons">people</i>
+                            <div class="col-auto">
+                                <i class="material-icons text-gray-300" style="font-size: 2rem;">contact_mail</i>
                             </div>
-                        </div>
-                        <div class="mt-3 small">
-                            <span class="text-white-50">Registered users</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Revenue -->
-            <div class="col-xl-3 col-sm-6">
-                <div class="card bg-warning text-white">
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-warning shadow h-100 py-2">
                     <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <p class="mb-2">Total Revenue</p>
-                                <h3 class="mb-0">${{ number_format($soldCars * 1000, 2) }}</h3>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                    Total Users</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $totalUsers }}</div>
                             </div>
-                            <div class="rounded-circle bg-warning-light p-3">
-                                <i class="material-icons">attach_money</i>
+                            <div class="col-auto">
+                                <i class="material-icons text-gray-300" style="font-size: 2rem;">people</i>
                             </div>
-                        </div>
-                        <div class="mt-3 small">
-                            <span class="text-white-50">From {{ $soldCars }} sales</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Recent Activity -->
-        <div class="row g-4">
-            <!-- Recent Cars -->
-            <div class="col-lg-6">
-                <div class="card shadow-sm">
-                    <div class="card-header bg-transparent">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h5 class="mb-0">Recent Cars</h5>
-                            <a href="{{ route('cars.index') }}" class="btn btn-sm btn-primary">View All</a>
-                        </div>
+        <!-- Recent Activity and Quick Actions -->
+        <div class="row">
+            <!-- Recent Activity -->
+            <div class="col-xl-8 col-lg-7">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                        <h6 class="m-0 font-weight-bold text-primary">Recent Activity</h6>
+                        <a href="#" class="btn btn-sm btn-primary">View All</a>
                     </div>
-                    <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table table-hover mb-0">
-                                <thead class="bg-light">
-                                    <tr>
-                                        <th scope="col">Car</th>
-                                        <th scope="col">Price</th>
-                                        <th scope="col">Status</th>
-                                        <th scope="col">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach($recentCars as $car)
-                                    <tr>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <img src="{{ json_decode($car->images)[0] }}" alt="{{ $car->title }}" 
-                                                    class="rounded" style="width: 45px; height: 45px; object-fit: cover;">
-                                                <div class="ms-3">
-                                                    <p class="fw-bold mb-1">{{ $car->title }}</p>
-                                                    <p class="text-muted mb-0">{{ $car->make }} {{ $car->model }}</p>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>${{ number_format($car->price, 2) }}</td>
-                                        <td>
-                                            <span class="badge badge-{{ $car->status === 'available' ? 'success' : 'warning' }} rounded-pill">
-                                                {{ ucfirst($car->status) }}
-                                            </span>
-                                        </td>
-                                        <td>
-                                            <a href="{{ route('cars.show', $car) }}" class="btn btn-link btn-sm px-2">
-                                                <i class="material-icons">visibility</i>
-                                            </a>
-                                            <a href="{{ route('cars.edit', $car) }}" class="btn btn-link btn-sm px-2">
-                                                <i class="material-icons">edit</i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
+                    <div class="card-body">
+                        <div class="list-group">
+                            @foreach($recentActivities as $activity)
+                            <div class="list-group-item">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h6 class="mb-1">{{ $activity->title }}</h6>
+                                    <small>{{ $activity->created_at->diffForHumans() }}</small>
+                                </div>
+                                <p class="mb-1">{{ $activity->description }}</p>
+                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Recent Users -->
-            <div class="col-lg-6">
-                <div class="card shadow-sm">
-                    <div class="card-header bg-transparent">
-                        <h5 class="mb-0">Recent Users</h5>
+            <!-- Quick Actions -->
+            <div class="col-xl-4 col-lg-5">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Quick Actions</h6>
                     </div>
-                    <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table table-hover mb-0">
-                                <thead class="bg-light">
-                                    <tr>
-                                        <th scope="col">User</th>
-                                        <th scope="col">Email</th>
-                                        <th scope="col">Joined</th>
-                                        <th scope="col">Role</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach($recentUsers as $user)
-                                    <tr>
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" 
-                                                    style="width: 35px; height: 35px;">
-                                                    {{ strtoupper(substr($user->name, 0, 1)) }}
-                                                </div>
-                                                <div class="ms-3">
-                                                    <p class="fw-bold mb-1">{{ $user->name }}</p>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>{{ $user->email }}</td>
-                                        <td>{{ $user->created_at->diffForHumans() }}</td>
-                                        <td>
-                                            <span class="badge badge-{{ $user->is_admin ? 'danger' : 'info' }} rounded-pill">
-                                                {{ $user->is_admin ? 'Admin' : 'User' }}
-                                            </span>
-                                        </td>
-                                    </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
+                    <div class="card-body">
+                        <div class="d-grid gap-2">
+                            <a href="{{ route('cars.create') }}" class="btn btn-primary btn-block">
+                                <i class="material-icons align-middle">add_circle</i> Add New Car
+                            </a>
+                            <a href="{{ route('blogs.create') }}" class="btn btn-info btn-block">
+                                <i class="material-icons align-middle">post_add</i> Create Blog Post
+                            </a>
+                            <a href="{{ route('admin.users.create') }}" class="btn btn-success btn-block">
+                                <i class="material-icons align-middle">person_add</i> Add New User
+                            </a>
+                            <a href="{{ route('admin.reports.generate') }}" class="btn btn-warning btn-block">
+                                <i class="material-icons align-middle">assessment</i> Generate Report
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- System Status -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">System Status</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Server Load
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Storage Usage
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    @push('styles')
-    <style>
-        .bg-primary-light { background-color: rgba(255, 255, 255, 0.2); }
-        .bg-success-light { background-color: rgba(255, 255, 255, 0.2); }
-        .bg-info-light { background-color: rgba(255, 255, 255, 0.2); }
-        .bg-warning-light { background-color: rgba(255, 255, 255, 0.2); }
-        .card { border: none; border-radius: 10px; }
-        .card-header { border-bottom: none; }
-        .table > :not(caption) > * > * { padding: 1rem; }
-        .material-icons { font-size: 24px; }
-    </style>
-    @endpush
-</x-app-layout>
+</x-admin-layout>
