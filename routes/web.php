@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BidController;
+use App\Http\Controllers\CarController;
+use App\Http\Controllers\LoanCalculatorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,9 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [CarController::class, 'home'])->name('home');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -35,6 +35,8 @@ Route::post('/contact', function () {
     // Handle form submission here
 });
 
+Route::resource('cars', CarController::class);
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
@@ -48,5 +50,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/bids', [BidController::class, 'index'])->name('bids.index');
     Route::patch('/bids/{bid}', [BidController::class, 'update'])->name('bids.update');
 });
+
+// Loan Calculator routes
+Route::get('/loan-calculator', [LoanCalculatorController::class, 'index'])->name('loan.calculator');
+Route::post('/loan-calculator/calculate', [LoanCalculatorController::class, 'calculate'])->name('loan.calculate');
 
 require __DIR__.'/auth.php';

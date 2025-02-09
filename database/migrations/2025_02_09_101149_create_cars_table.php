@@ -15,6 +15,23 @@ return new class extends Migration
     {
         Schema::create('cars', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('make');
+            $table->string('model');
+            $table->integer('year');
+            $table->decimal('price', 12, 2);
+            $table->text('description');
+            $table->string('condition'); // new, used
+            $table->string('transmission');
+            $table->string('fuel_type');
+            $table->integer('mileage')->nullable();
+            $table->string('body_type');
+            $table->string('color');
+            $table->boolean('is_featured')->default(false);
+            $table->string('status')->default('available'); // available, sold, pending
+            $table->json('features')->nullable();
+            $table->json('images');
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }
