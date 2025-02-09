@@ -1,0 +1,631 @@
+[2025-02-09 12:08:47] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:47] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:48] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:48] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:48] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:48] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:48] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:48] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:48] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:49] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:49] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:08:50] local.ERROR: Uncaught ReflectionException: Class "blade.compiler" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('blade.compiler')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('blade.compiler')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('blade.compiler', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#6 Command line code(1): app('Illuminate\\View...')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [blade.compiler] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('blade.compiler')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('blade.compiler', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#5 Command line code(1): app('Illuminate\\View...')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"blade.compiler\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('blade.compiler')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('blade.compiler')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#6 Command line code(1): app('Illuminate\\\\View...')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [blade.compiler] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('blade.compiler')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#5 Command line code(1): app('Illuminate\\\\View...')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:08:50] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:08:50] local.ERROR: Uncaught ReflectionException: Class "translator" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('translator')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('translator')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('translator', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('translator')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('translator', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('translator', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('translator', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"translator\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('translator')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('translator')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('translator', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [translator] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('translator')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('translator', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:08:50] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:08:50] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:09:10] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:09:10] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:09:10] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:09:10] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:09:10] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:09:10] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:889
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#5 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php:891
+Stack trace:
+#0 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('view')
+#1 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(881): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(866): Illuminate\Container\Container->make('view', Array)
+#4 C:\Users\OJEMO\Documents\GitHub\cars\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:889
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(889): ReflectionClass->__construct('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891
+Stack trace:
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('view')
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:891)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-09 12:09:46] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:12:08] local.ERROR: The C:\Users\OJEMO\Documents\GitHub\cars\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\bootstrap\\cache directory must be present and writable. at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2025-02-09 12:22:59] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from information_schema.tables where table_schema = laravel and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from information_schema.tables where table_schema = laravel and table_name = migrations and table_type = 'BASE TABLE') at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(392): Illuminate\\Database\\Connection->select('select * from i...', Array, false)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(44): Illuminate\\Database\\Connection->selectFromWriteConnection('select * from i...', Array)
+#4 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(722): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(138): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(260): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}(1)
+#8 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(157): retry(1, Object(Closure), 0, Object(Closure))
+#9 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(114): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#10 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(82): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#11 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(636): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#12 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#13 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#19 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Command\\Command.php(291): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(153): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Application.php(1014): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it at C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1181): call_user_func(Object(Closure))
+#6 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(486): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): Illuminate\\Database\\Connection->getPdoForSelect(false)
+#8 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from i...', Array)
+#9 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#10 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#11 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(392): Illuminate\\Database\\Connection->select('select * from i...', Array, false)
+#12 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(44): Illuminate\\Database\\Connection->selectFromWriteConnection('select * from i...', Array)
+#13 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#14 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(722): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(138): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(260): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}(1)
+#17 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(157): retry(1, Object(Closure), 0, Object(Closure))
+#18 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(114): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#19 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(82): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#20 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(636): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#21 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#22 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#23 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#25 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#28 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Command\\Command.php(291): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(153): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Application.php(1014): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\Users\\OJEMO\\Documents\\GitHub\\cars\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 {main}
+"} 
