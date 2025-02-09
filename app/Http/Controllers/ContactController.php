@@ -9,6 +9,32 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
+    public function index()
+    {
+        return view('contact');
+    }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'message' => 'required|string|min:10',
+        ]);
+
+        // Send email to admin
+        Mail::send('emails.contact-form', [
+            'name' => $request->name,
+            'email' => $request->email,
+            'userMessage' => $request->message,
+        ], function ($mail) {
+            $mail->to(config('mail.from.address'))
+                ->subject('New Contact Form Submission');
+        });
+
+        return back()->with('success', 'Thank you for your message. We will get back to you soon!');
+    }
+
     public function contactSeller(Request $request, Car $car)
     {
         $request->validate([

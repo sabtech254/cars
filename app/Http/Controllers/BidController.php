@@ -21,7 +21,7 @@ class BidController extends Controller
     public function index()
     {
         $bids = Bid::with(['user', 'car'])->latest()->paginate(20);
-        return view('bids.index', compact('bids'));
+        return view('admin.bids.index', compact('bids'));
     }
 
     /**
@@ -32,7 +32,7 @@ class BidController extends Controller
      */
     public function create(Car $car)
     {
-        return view('bids.create', compact('car'));
+        return view('admin.bids.create', compact('car'));
     }
 
     /**

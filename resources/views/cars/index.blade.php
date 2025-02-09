@@ -1,105 +1,125 @@
 <x-app-layout>
-    <div class="container py-4">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1>Browse Cars</h1>
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex justify-between items-center mb-6">
+            <h1 class="text-3xl font-bold">Available Cars</h1>
             @auth
-                <a href="{{ route('cars.create') }}" class="btn btn-primary">Post a Car</a>
+                @if(auth()->user()->is_admin)
+                    <a href="{{ route('cars.create') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Add New Car
+                    </a>
+                @endif
             @endauth
         </div>
 
         <!-- Filters -->
-        <div class="row mb-4">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-body">
-                        <form action="{{ route('cars.index') }}" method="GET" class="row g-3">
-                            <div class="col-md-3">
-                                <label for="make" class="form-label">Make</label>
-                                <select name="make" id="make" class="form-select">
-                                    <option value="">All Makes</option>
-                                    @foreach($makes as $make)
-                                    <option value="{{ $make }}" {{ request('make') == $make ? 'selected' : '' }}>
-                                        {{ $make }}
-                                    </option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="col-md-3">
-                                <label for="body_type" class="form-label">Body Type</label>
-                                <select name="body_type" id="body_type" class="form-select">
-                                    <option value="">All Types</option>
-                                    <option value="sedan" {{ request('body_type') == 'sedan' ? 'selected' : '' }}>Sedan</option>
-                                    <option value="suv" {{ request('body_type') == 'suv' ? 'selected' : '' }}>SUV</option>
-                                    <option value="truck" {{ request('body_type') == 'truck' ? 'selected' : '' }}>Truck</option>
-                                    <option value="coupe" {{ request('body_type') == 'coupe' ? 'selected' : '' }}>Coupe</option>
-                                </select>
-                            </div>
-                            <div class="col-md-3">
-                                <label for="price_range" class="form-label">Price Range</label>
-                                <select name="price_range" id="price_range" class="form-select">
-                                    <option value="">Any Price</option>
-                                    <option value="0-10000" {{ request('price_range') == '0-10000' ? 'selected' : '' }}>Under $10,000</option>
-                                    <option value="10000-20000" {{ request('price_range') == '10000-20000' ? 'selected' : '' }}>$10,000 - $20,000</option>
-                                    <option value="20000-30000" {{ request('price_range') == '20000-30000' ? 'selected' : '' }}>$20,000 - $30,000</option>
-                                    <option value="30000+" {{ request('price_range') == '30000+' ? 'selected' : '' }}>Over $30,000</option>
-                                </select>
-                            </div>
-                            <div class="col-md-3">
-                                <label for="sort" class="form-label">Sort By</label>
-                                <select name="sort" id="sort" class="form-select">
-                                    <option value="newest" {{ request('sort') == 'newest' ? 'selected' : '' }}>Newest First</option>
-                                    <option value="price_low" {{ request('sort') == 'price_low' ? 'selected' : '' }}>Price: Low to High</option>
-                                    <option value="price_high" {{ request('sort') == 'price_high' ? 'selected' : '' }}>Price: High to Low</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Apply Filters</button>
-                                <a href="{{ route('cars.index') }}" class="btn btn-secondary">Clear Filters</a>
-                            </div>
-                        </form>
-                    </div>
+        <div class="bg-white p-4 rounded-lg shadow mb-6">
+            <form action="{{ route('cars.index') }}" method="GET" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div>
+                    <label for="make" class="block text-sm font-medium text-gray-700">Make</label>
+                    <select name="make" id="make" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                        <option value="">All Makes</option>
+                        @foreach($makes as $m)
+                            <option value="{{ $m }}" {{ request('make') == $m ? 'selected' : '' }}>{{ $m }}</option>
+                        @endforeach
+                    </select>
                 </div>
-            </div>
+
+                <div>
+                    <label for="body_type" class="block text-sm font-medium text-gray-700">Body Type</label>
+                    <select name="body_type" id="body_type" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                        <option value="">All Types</option>
+                        @foreach($bodyTypes as $type)
+                            <option value="{{ $type }}" {{ request('body_type') == $type ? 'selected' : '' }}>{{ $type }}</option>
+                        @endforeach
+                    </select>
+                </div>
+
+                <div>
+                    <label for="price_range" class="block text-sm font-medium text-gray-700">Price Range</label>
+                    <select name="price_range" id="price_range" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                        <option value="">Any Price</option>
+                        <option value="0-50000" {{ request('price_range') == '0-50000' ? 'selected' : '' }}>Under $50,000</option>
+                        <option value="50000-100000" {{ request('price_range') == '50000-100000' ? 'selected' : '' }}>$50,000 - $100,000</option>
+                        <option value="100000-plus" {{ request('price_range') == '100000-plus' ? 'selected' : '' }}>Over $100,000</option>
+                    </select>
+                </div>
+
+                <div class="flex items-end">
+                    <button type="submit" class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Apply Filters
+                    </button>
+                </div>
+            </form>
         </div>
 
         <!-- Cars Grid -->
-        <div class="row">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             @foreach($cars as $car)
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div id="carousel-{{ $car->id }}" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            @foreach(json_decode($car->images) as $index => $image)
-                            <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
-                                <img src="{{ $image }}" class="d-block w-100" alt="{{ $car->title }}">
-                            </div>
-                            @endforeach
-                        </div>
-                        @if(count(json_decode($car->images)) > 1)
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ $car->id }}" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-{{ $car->id }}" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        @endif
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="relative" style="height: 250px; overflow: hidden;">
+                    @php
+                        $images = json_decode($car->images);
+                        $mainImage = $images[0] ?? 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800';
+                    @endphp
+                    <img src="{{ $mainImage }}" 
+                         alt="{{ $car->title }}"
+                         class="w-full h-full object-cover"
+                         style="object-position: center;">
+                    @if($car->is_featured)
+                        <span class="absolute top-2 right-2 bg-yellow-500 text-white px-2 py-1 rounded text-sm">Featured</span>
+                    @endif
+                </div>
+                
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">{{ $car->title }}</h2>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-lg font-bold text-blue-600">${{ number_format($car->price) }}</span>
+                        <span class="text-sm text-gray-600">{{ $car->year }}</span>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">{{ $car->title }}</h5>
-                        <p class="card-text">
-                            <strong>Price:</strong> ${{ number_format($car->price, 2) }}<br>
-                            <strong>Year:</strong> {{ $car->year }}<br>
-                            <strong>Mileage:</strong> {{ number_format($car->mileage) }} km<br>
-                            <strong>Condition:</strong> {{ ucfirst($car->condition) }}
-                        </p>
-                        <div class="d-grid gap-2">
-                            <a href="{{ route('cars.show', $car) }}" class="btn btn-primary">View Details</a>
-                            @auth
-                            <a href="{{ route('bids.create', $car) }}" class="btn btn-outline-primary">Place Bid</a>
-                            @endauth
+                    
+                    <div class="grid grid-cols-2 gap-2 mb-4 text-sm">
+                        <div class="flex items-center">
+                            <i class="material-icons text-gray-500 mr-1" style="font-size: 16px;">speed</i>
+                            <span>{{ number_format($car->mileage) }} mi</span>
                         </div>
+                        <div class="flex items-center">
+                            <i class="material-icons text-gray-500 mr-1" style="font-size: 16px;">local_gas_station</i>
+                            <span>{{ $car->fuel_type }}</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="material-icons text-gray-500 mr-1" style="font-size: 16px;">settings</i>
+                            <span>{{ $car->transmission }}</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="material-icons text-gray-500 mr-1" style="font-size: 16px;">palette</i>
+                            <span>{{ $car->color }}</span>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between items-center">
+                        <a href="{{ route('cars.show', $car) }}" 
+                           class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            View Details
+                        </a>
+                        @auth
+                            @if(auth()->user()->is_admin)
+                                <div class="flex space-x-2">
+                                    <a href="{{ route('cars.edit', $car) }}" 
+                                       class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                                        Edit
+                                    </a>
+                                    <form action="{{ route('cars.destroy', $car) }}" method="POST" class="inline">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" 
+                                                class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                                                onclick="return confirm('Are you sure you want to delete this car?')">
+                                            Delete
+                                        </button>
+                                    </form>
+                                </div>
+                            @endif
+                        @endauth
                     </div>
                 </div>
             </div>
@@ -107,10 +127,8 @@
         </div>
 
         <!-- Pagination -->
-        <div class="row">
-            <div class="col-12">
-                {{ $cars->links() }}
-            </div>
+        <div class="mt-6">
+            {{ $cars->links() }}
         </div>
     </div>
 </x-app-layout>

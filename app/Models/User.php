@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'is_admin',
     ];
 
     /**
@@ -40,5 +41,25 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'password' => 'hashed',
+        'is_admin' => 'boolean',
     ];
+
+    /**
+     * Check if the user is an administrator.
+     *
+     * @return bool
+     */
+    public function isAdmin(): bool
+    {
+        return $this->is_admin === true;
+    }
+
+    /**
+     * Get the activities for the user.
+     */
+    public function activities()
+    {
+        return $this->hasMany(Activity::class);
+    }
 }

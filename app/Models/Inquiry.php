@@ -14,11 +14,16 @@ class Inquiry extends Model
     protected $fillable = [
         'user_id',
         'car_id',
+        'name',
+        'email',
+        'phone',
         'subject',
         'message',
-        'status',
-        'email',
-        'phone'
+        'status'
+    ];
+
+    protected $attributes = [
+        'status' => 'new'
     ];
 
     /**

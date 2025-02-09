@@ -6,7 +6,11 @@ use App\Http\Controllers\CarController;
 use App\Http\Controllers\LoanCalculatorController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\BlogController; // Added this line
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Admin\InquiryController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\SettingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,7 +24,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [CarController::class, 'home'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -30,17 +34,13 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::post('/contact', function () {
-    // Handle form submission here
-});
+// Contact routes
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 Route::resource('cars', CarController::class);
 
-Route::resource('blogs', BlogController::class); // Added this line
+Route::resource('blogs', BlogController::class);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -64,22 +64,37 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/cars/{car}/contact', [ContactController::class, 'contactSeller'])->name('cars.contact');
 });
 
-// Admin routes
-Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(function () {
+// Admin Routes
+Route::prefix('admin')->name('admin.')->middleware(['auth', 'admin'])->group(function () {
     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
-    Route::get('/settings', [AdminController::class, 'settings'])->name('settings');
     
-    // User management
-    Route::get('/users', [AdminController::class, 'users'])->name('users.index');
-    Route::get('/users/create', [AdminController::class, 'createUser'])->name('users.create');
-    Route::post('/users', [AdminController::class, 'storeUser'])->name('users.store');
-    Route::get('/users/{user}/edit', [AdminController::class, 'editUser'])->name('users.edit');
-    Route::put('/users/{user}', [AdminController::class, 'updateUser'])->name('users.update');
-    Route::delete('/users/{user}', [AdminController::class, 'deleteUser'])->name('users.destroy');
-});
+    // Cars Management
+    Route::get('/cars/sale', [CarController::class, 'adminSaleIndex'])->name('cars.sale');
+    Route::get('/cars/auction', [CarController::class, 'adminAuctionIndex'])->name('cars.auction');
+    Route::get('/cars/create', [CarController::class, 'create'])->name('cars.create');
+    Route::post('/cars', [CarController::class, 'store'])->name('cars.store');
+    Route::get('/cars/{car}/edit', [CarController::class, 'edit'])->name('cars.edit');
+    Route::get('/cars/{car}', [CarController::class, 'show'])->name('cars.show');
+    Route::put('/cars/{car}', [CarController::class, 'update'])->name('cars.update');
+    Route::delete('/cars/{car}', [CarController::class, 'destroy'])->name('cars.destroy');
+    Route::patch('/cars/{car}/toggle-featured', [CarController::class, 'toggleFeatured'])->name('cars.toggle-featured');
 
-Route::middleware(['auth', 'admin'])->group(function () {
-    Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+    // Bids Management
+    Route::get('/bids', [BidController::class, 'index'])->name('bids.index');
+    Route::get('/bids/{bid}', [BidController::class, 'show'])->name('bids.show');
+    Route::put('/bids/{bid}/approve', [BidController::class, 'approve'])->name('bids.approve');
+    Route::put('/bids/{bid}/reject', [BidController::class, 'reject'])->name('bids.reject');
+    Route::delete('/bids/{bid}', [BidController::class, 'destroy'])->name('bids.destroy');
+
+    // Users Management
+    Route::resource('users', UserController::class);
+    
+    // Inquiries Management
+    Route::resource('inquiries', InquiryController::class);
+    
+    // Settings
+    Route::get('/settings', [SettingController::class, 'index'])->name('settings.index');
+    Route::post('/settings', [SettingController::class, 'update'])->name('settings.update');
 });
 
 require __DIR__.'/auth.php';

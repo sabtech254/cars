@@ -39,6 +39,12 @@
                         Blog
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">
+                        <i class="material-icons align-middle">mail</i>
+                        Contact Us
+                    </a>
+                </li>
             </ul>
 
             <!-- Right Side -->
@@ -48,7 +54,7 @@
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}" href="{{ route('admin.dashboard') }}">
                             <i class="material-icons align-middle">dashboard</i>
-                            Dashboard
+                            Admin Dashboard
                         </a>
                     </li>
                     @endif

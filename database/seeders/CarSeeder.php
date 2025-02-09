@@ -2,126 +2,138 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use App\Models\Car;
 use App\Models\User;
+use Illuminate\Database\Seeder;
 
 class CarSeeder extends Seeder
 {
     public function run()
     {
-        $users = User::all();
-        
-        $cars = [
+        // Ensure we have an admin user
+        $admin = User::where('email', 'admin@example.com')->first();
+        if (!$admin) {
+            $admin = User::create([
+                'name' => 'Admin User',
+                'email' => 'admin@example.com',
+                'password' => bcrypt('password'),
+                'is_admin' => true
+            ]);
+        }
+
+        // Executive Cars Collection with high-quality images
+        $executiveCars = [
             [
-                'title' => '2023 Mercedes-Benz S-Class',
+                'title' => 'Mercedes-Benz S-Class 2024',
+                'description' => 'The epitome of luxury and technological innovation. Features include Executive Rear Seat Package, MBUX Interior Assistant, and ENERGIZING Comfort Control.',
+                'price' => 149000,
+                'year' => 2024,
                 'make' => 'Mercedes-Benz',
                 'model' => 'S-Class',
-                'year' => 2023,
-                'price' => 110000,
-                'description' => 'Luxury sedan with advanced features and premium comfort.',
-                'condition' => 'new',
-                'transmission' => 'automatic',
-                'fuel_type' => 'petrol',
                 'mileage' => 0,
-                'body_type' => 'sedan',
-                'color' => 'Black',
-                'is_featured' => true,
-                'status' => 'available',
+                'body_type' => 'Sedan',
+                'color' => 'Obsidian Black',
+                'transmission' => 'Automatic',
+                'fuel_type' => 'Hybrid',
+                'condition' => 'New',
                 'features' => json_encode([
-                    'Leather seats',
-                    'Panoramic sunroof',
-                    'Advanced driver assistance',
-                    'Premium sound system'
+                    'Executive Rear Package',
+                    'MBUX Interior Assistant',
+                    'ENERGIZING Comfort Control',
+                    'Burmester® 4D Surround Sound',
+                    'Active Ambient Lighting'
                 ]),
                 'images' => json_encode([
-                    '/images/cars/mercedes-s-class-1.jpg',
-                    '/images/cars/mercedes-s-class-2.jpg'
+                    'https://images.unsplash.com/photo-1616788494672-ec7ca25fdda9?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1616788494707-ec63fd027e8a?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1616788494801-ef870be46103?w=1000&h=500&fit=crop'
                 ])
             ],
             [
-                'title' => '2022 BMW X7',
+                'title' => 'BMW 7 Series 2024',
+                'description' => 'A masterpiece of automotive excellence featuring BMW Theatre Screen, Executive Lounge seating, and Sky Lounge LED roof.',
+                'price' => 165000,
+                'year' => 2024,
                 'make' => 'BMW',
-                'model' => 'X7',
-                'year' => 2022,
-                'price' => 95000,
-                'description' => 'Luxury SUV with spacious interior and powerful performance.',
-                'condition' => 'used',
-                'transmission' => 'automatic',
-                'fuel_type' => 'petrol',
-                'mileage' => 15000,
-                'body_type' => 'suv',
-                'color' => 'White',
-                'is_featured' => true,
-                'status' => 'available',
+                'model' => '7 Series',
+                'mileage' => 0,
+                'body_type' => 'Sedan',
+                'color' => 'Alpine White',
+                'transmission' => 'Automatic',
+                'fuel_type' => 'Electric',
+                'condition' => 'New',
                 'features' => json_encode([
-                    'Third-row seating',
-                    'All-wheel drive',
-                    'Premium audio system',
-                    'Advanced safety features'
+                    'BMW Theatre Screen',
+                    'Executive Lounge Seating',
+                    'Sky Lounge LED Roof',
+                    'Bowers & Wilkins Diamond Surround Sound',
+                    'BMW Digital Key Plus'
                 ]),
                 'images' => json_encode([
-                    '/images/cars/bmw-x7-1.jpg',
-                    '/images/cars/bmw-x7-2.jpg'
+                    'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1607853202275-d3c623410d45?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1607853202277-71c8f8e9e43a?w=1000&h=500&fit=crop'
                 ])
             ],
             [
-                'title' => '2023 Porsche 911',
-                'make' => 'Porsche',
-                'model' => '911',
-                'year' => 2023,
-                'price' => 135000,
-                'description' => 'High-performance sports car with iconic design.',
-                'condition' => 'new',
-                'transmission' => 'automatic',
-                'fuel_type' => 'petrol',
-                'mileage' => 500,
-                'body_type' => 'coupe',
-                'color' => 'Red',
-                'is_featured' => true,
-                'status' => 'available',
+                'title' => 'Rolls-Royce Ghost 2024',
+                'description' => 'The purest expression of Rolls-Royce featuring Starlight Headliner, Illuminated Fascia, and planar suspension system.',
+                'price' => 375000,
+                'year' => 2024,
+                'make' => 'Rolls-Royce',
+                'model' => 'Ghost',
+                'mileage' => 0,
+                'body_type' => 'Sedan',
+                'color' => 'Arctic White',
+                'transmission' => 'Automatic',
+                'fuel_type' => 'Petrol',
+                'condition' => 'New',
                 'features' => json_encode([
-                    'Sport Chrono Package',
-                    'Carbon fiber interior',
-                    'Sport exhaust system',
-                    'Adaptive sport seats'
+                    'Starlight Headliner',
+                    'Illuminated Fascia',
+                    'Planar Suspension System',
+                    'Bespoke Audio',
+                    'Micro-Environment Purification System'
                 ]),
                 'images' => json_encode([
-                    '/images/cars/porsche-911-1.jpg',
-                    '/images/cars/porsche-911-2.jpg'
+                    'https://images.unsplash.com/photo-1631295868223-63265b40d9e4?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1631295868225-702453d89872?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1631295868227-2f10ff0fdd0c?w=1000&h=500&fit=crop'
                 ])
             ],
             [
-                'title' => '2022 Tesla Model S',
-                'make' => 'Tesla',
-                'model' => 'Model S',
-                'year' => 2022,
-                'price' => 89000,
-                'description' => 'All-electric luxury sedan with cutting-edge technology.',
-                'condition' => 'used',
-                'transmission' => 'automatic',
-                'fuel_type' => 'electric',
-                'mileage' => 8000,
-                'body_type' => 'sedan',
-                'color' => 'Silver',
-                'is_featured' => true,
-                'status' => 'available',
+                'title' => 'Bentley Flying Spur 2024',
+                'description' => 'The ultimate in luxury performance with Mulliner Driving Specification, rotating display, and diamond quilting.',
+                'price' => 285000,
+                'year' => 2024,
+                'make' => 'Bentley',
+                'model' => 'Flying Spur',
+                'mileage' => 0,
+                'body_type' => 'Sedan',
+                'color' => 'Meteor Grey',
+                'transmission' => 'Automatic',
+                'fuel_type' => 'Hybrid',
+                'condition' => 'New',
                 'features' => json_encode([
-                    'Autopilot',
-                    'Full Self-Driving capability',
-                    'Premium audio',
-                    'Glass roof'
+                    'Mulliner Driving Specification',
+                    'Rotating Display',
+                    'Diamond Quilting',
+                    'Naim for Bentley Audio',
+                    'City Specification Package'
                 ]),
                 'images' => json_encode([
-                    '/images/cars/tesla-models-1.jpg',
-                    '/images/cars/tesla-models-2.jpg'
+                    'https://images.unsplash.com/photo-1621248861756-768f4035a2f3?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1621248861758-7c3d0d31b58f?w=1000&h=500&fit=crop',
+                    'https://images.unsplash.com/photo-1621248861760-87e4b4b4b4b0?w=1000&h=500&fit=crop'
                 ])
-            ],
+            ]
         ];
 
-        foreach ($cars as $carData) {
-            $carData['user_id'] = $users->random()->id;
-            Car::create($carData);
+        foreach ($executiveCars as $car) {
+            $car['user_id'] = $admin->id;
+            $car['status'] = 'available';
+            $car['is_featured'] = true;
+            Car::create($car);
         }
     }
 }
