@@ -4,6 +4,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BidController;
 use App\Http\Controllers\CarController;
 use App\Http\Controllers\LoanCalculatorController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -54,5 +56,13 @@ Route::middleware(['auth'])->group(function () {
 // Loan Calculator routes
 Route::get('/loan-calculator', [LoanCalculatorController::class, 'index'])->name('loan.calculator');
 Route::post('/loan-calculator/calculate', [LoanCalculatorController::class, 'calculate'])->name('loan.calculate');
+
+Route::middleware(['auth'])->group(function () {
+    Route::post('/cars/{car}/contact', [ContactController::class, 'contactSeller'])->name('cars.contact');
+});
+
+Route::middleware(['auth', 'admin'])->group(function () {
+    Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+});
 
 require __DIR__.'/auth.php';
