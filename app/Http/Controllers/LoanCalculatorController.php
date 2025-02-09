@@ -8,7 +8,7 @@ class LoanCalculatorController extends Controller
 {
     public function index()
     {
-        return view('loans.calculator');
+        return view('loan-calculator');
     }
 
     public function calculate(Request $request)

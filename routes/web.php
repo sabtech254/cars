@@ -6,6 +6,7 @@ use App\Http\Controllers\CarController;
 use App\Http\Controllers\LoanCalculatorController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\BlogController; // Added this line
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,7 +28,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -38,6 +39,8 @@ Route::post('/contact', function () {
 });
 
 Route::resource('cars', CarController::class);
+
+Route::resource('blogs', BlogController::class); // Added this line
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

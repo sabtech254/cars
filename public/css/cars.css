@@ -1,9 +1,163 @@
-/* Hero Section Styles */
-.hero-section {
-    margin-top: -24px;
-    position: relative;
+/* General Styles */
+body {
+    font-family: 'Figtree', sans-serif;
+    color: #333;
 }
 
+/* Material Design Shadows */
+.shadow-sm {
+    box-shadow: 0 2px 4px rgba(0,0,0,.075)!important;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0,0,0,.1)!important;
+}
+
+/* Card Styles */
+.card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+/* Navigation */
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #2563eb;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    text-transform: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Car Cards */
+.car-card {
+    height: 100%;
+}
+
+.car-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-features {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+/* Admin Dashboard */
+.admin-stat-card {
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.admin-stat-card .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.2);
+}
+
+/* Tables */
+.table th {
+    font-weight: 600;
+    color: #374151;
+    background-color: #f9fafb;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Badges */
+.badge {
+    padding: 0.5em 1em;
+    font-weight: 500;
+}
+
+/* Forms */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+    padding: 0.75rem 1rem;
+}
+
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 400px;
+    }
+    
+    .car-card .card-img-top {
+        height: 160px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Hero Section Styles */
 .carousel-item {
     height: 80vh;
     min-height: 500px;
@@ -45,63 +199,6 @@
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.4);
-}
-
-/* Button Styles */
-.btn-primary {
-    background-color: #3490dc;
-    border-color: #3490dc;
-    padding: 0.5rem 1.5rem;
-    transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #2779bd;
-    border-color: #2779bd;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.carousel-caption .btn-lg {
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* Card Styles */
-.card {
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 100%;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
-
-.card-body {
-    padding: 1.5rem;
-}
-
-.card-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: #2d3748;
-}
-
-.card-text {
-    color: #4a5568;
-    margin-bottom: 1rem;
-    line-height: 1.5;
 }
 
 /* Section Styles */
